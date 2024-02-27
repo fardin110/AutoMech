@@ -1,0 +1,145 @@
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	background-image: url("https://images.hdqwalls.com/wallpapers/bthumb/rolls-royce-ghost-de.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: "Baskerville Old Face", serif;
+	color: white;
+}
+
+.header {
+	padding: 40px;
+	text-align: center;
+}
+
+.sub-header {
+	font-size: 36px;
+	margin-top: 20px;
+}
+
+
+.button {
+	display: inline-block;
+	padding: 12px 25px;
+	background-color: #333;
+	color: white;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	margin-left: 20px;
+	transition: background-color 0.3s, font-size 0.3s;
+}
+.button:hover {
+	background-color: #555;
+	font-size: 22px;
+}
+.login-container {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.login-button, .signup-button {
+	background-color: transparent;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px 20px;
+	border-radius: 30px;
+	border: 2px solid #fff;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.login-button:hover, .signup-button:hover {
+	background-color: #fff;
+	color: #000;
+	transition: background-color 0.3s, color 0.3s;
+}
+.ad-container {
+	margin-top: 160px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.ad {
+	display: inline-block;
+	width: 300px;
+	height: 250px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+	overflow: hidden;
+}
+.ad-text {
+	text-align: center;
+	font-size: 18px;
+	margin-top: 10px;
+	color: #fff;
+}
+
+.ad img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.ad a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	color: black;
+}
+.footer {
+	background-color: black;
+	padding: 20px;
+	position: relative;
+	bottom: 0;
+	text-align: center;
+}
+
+.footer img {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.footer-text {
+	color: white;
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+.footer-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.fn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 90px;
+
+}
+
+
+  
+@media (max-width: 768px) {
+	.button-container {
+		flex-direction: column;
+		align-items: center;
+	}
+	.button {
+		margin-top: 20px;
+	}
+}

@@ -1,0 +1,102 @@
+body {
+    background-color: #7caacd;
+    color: #ffffff;
+    font-family: "Baskerville Old Face", serif;
+}
+.logout-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Baskerville Old Face", serif;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 90%;
+    font-family: "Baskerville Old Face", serif;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    font-family: "Baskerville Old Face", serif;
+}
+
+th {
+    background-color: #000000;
+    font-size: 20px;
+    font-family: "Baskerville Old Face", serif;
+}
+
+tr:nth-child(even) {
+    background-color: #333333;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Baskerville Old Face", serif;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+/* Form styles */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Baskerville Old Face", serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: "Baskerville Old Face", serif;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    font-family: "Baskerville Old Face", serif;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: "Baskerville Old Face", serif;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffffff;
+    color: #ff0000;
+}
+
+.error {
+    color: #ff0000;
+    font-weight: bold;
+    font-family: "Baskerville Old Face", serif;
+}

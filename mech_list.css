@@ -1,0 +1,76 @@
+body {
+    background-image: url("https://images.hdqwalls.com/wallpapers/bthumb/rolls-royce-ghost-de.jpg");
+    font-family: "Baskerville Old Face", serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #cbcbcb;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  th,
+  td {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #717171;
+    color: #fffefe;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  td:last-child {
+    text-align: left;
+  }
+  
+  a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #000000;
+    text-decoration: underline;
+  }
+  .btn-request {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-request:hover {
+    background-color: #3e8e41;
+}

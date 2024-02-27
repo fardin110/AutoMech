@@ -1,0 +1,85 @@
+body {
+	background-color: #222;
+	color: #fff;
+	font-family: "Baskerville Old Face", serif;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	background-color: rgba(0, 0, 0, 0.5);
+	position: top;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 90px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 20px;
+}
+
+.logout-button{
+	background-color: #ba0000;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+	font-size: 16px;
+	font-family: "Baskerville Old Face", serif;
+
+}
+
+.edit-profile-button{
+	background-color: #d7a100;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+	font-size: 16px;
+	font-family: "Baskerville Old Face", serif;
+}
+.name-button {
+	background-color: #00895e87;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+	font-size: 16px;
+	font-family: "Baskerville Old Face", serif;
+}
+
+.logout-button:hover,
+.edit-profile-button:hover,
+.feedback-button:hover,
+.name-button:hover {
+	background-color: #444;
+}
+
+.logout-button {
+	margin-right: 20px;
+}
+
+.edit-profile-button {
+	margin-right: 60px;
+	margin-left: auto;
+}
+
+.name-button {
+	margin: 0 auto;
+	display: block;
+	margin-top: 100px;
+	font-size: 24px;
+}
+
+.text-large {
+	font-size: 36px;
+	margin-top: 100px;
+	text-align: center;
+}
