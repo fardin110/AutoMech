@@ -40,7 +40,7 @@
     <div class="footer-content">
 
         <div class="fn">
-            <img src="fardin.png">
+            <img src="founder.jpg">
             <div class="fn-text">Fardin Rahman</div>
         </div>
 
