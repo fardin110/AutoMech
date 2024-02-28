@@ -43,7 +43,6 @@
             <img src="founder.jpg">
             <div class="fn-text">Fardin Rahman</div>
         </div>
-
     </div>
 </footer>
 
