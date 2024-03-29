@@ -44,7 +44,7 @@ else {location.href='#'}">Search Mechanics in <span id="location-name2"></span><
     <div id="map"></div>
 
     <!-- Load the Google Maps JavaScript API -->
-    <script src="https://maps.googleapis.com/maps/api/js?key="></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key= "></script>
 
     <script>
       // Initialize the map
